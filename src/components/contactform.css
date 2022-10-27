@@ -8,6 +8,10 @@
   margin-bottom: 20px;
 }
 
+.input-button {
+    margin-bottom: 30px;
+}
+
 input {
   width: 305px;
   height: 25px;
@@ -32,5 +36,9 @@ label {
     color: whitesmoke;
     text-align: center;
 
+}
+
+.result-msg {
+    color: red;
 }
 
