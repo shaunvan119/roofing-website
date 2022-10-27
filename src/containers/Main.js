@@ -3,6 +3,7 @@ import "./main.css"
 import backgroundVid from "../assets/backgroundVid.mp4"
 import ContactForm from '../components/ContactFrom'
 
+
 const Main = () => {
   return (
     <div className="main">
