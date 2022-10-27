@@ -1,0 +1,36 @@
+.form-contact {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.input-contact {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 305px;
+  height: 25px;
+  
+  
+}
+
+textarea {
+  width: 305px;
+}
+
+.last_input {
+    width: 310px;
+}
+
+label {
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.Heading_quote {
+    color: whitesmoke;
+    text-align: center;
+
+}
+

@@ -1,0 +1,27 @@
+video {
+    width: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 220px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  
+  
+ 
+}
+
+.free_quote_form {
+    height: 363px;
+    width: 380px;
+    background-color: black;
+    opacity: .5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
