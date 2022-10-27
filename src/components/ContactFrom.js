@@ -50,7 +50,7 @@ const ContactForm = () => {
   return (
 
     <div>
-    <h1 className="Heading_quote">Get a free <span style={{ color: "red" }} >Quote</span></h1>
+    <h1 className="Heading_quote">Get a free <span style={{ color: "#d89e1a" }} >Quote</span></h1>
      <form className="form-contact" ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input className="input-contact" type="text" name="user_name" />

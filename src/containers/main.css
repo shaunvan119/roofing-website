@@ -25,3 +25,51 @@ video {
 
 }
 
+.heading_wrapper {
+  position: absolute;
+  top: 220px;
+  left: 150px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+  
+}
+
+.main_heading {
+    color: whitesmoke;
+    font-size: 43px;
+}
+
+.main_heading_two {
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+
+
+.booking_button {
+border-radius: 20px;
+    background-color: #d89e1a;
+    border: none;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: 700;
+    margin-right: 80px;
+    margin-top: -22px;
+}
+
+.vl {
+  border-left: 6px solid #d89e1a;
+  height: 180px;
+  position: absolute;
+  left: -20px;
+  top: 30px;
+  
+}
+
+

@@ -10,6 +10,15 @@
 
 .input-button {
     margin-bottom: 30px;
+    background-color: #d89e1a;
+    border: none;
+    width: 20px;
+}
+
+.last_input {
+    max-width: 100px;
+    height: 40px;
+    font-weight: 700;
 }
 
 input {
