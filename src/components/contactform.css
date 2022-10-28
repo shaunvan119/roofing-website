@@ -13,7 +13,15 @@
     background-color: #d89e1a;
     border: none;
     width: 20px;
+    border-radius: 20px;
 }
+
+.input-button:hover {
+  background-color:  whitesmoke;
+  
+}
+
+
 
 .last_input {
     max-width: 100px;

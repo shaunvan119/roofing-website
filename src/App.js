@@ -1,6 +1,7 @@
 import Header from "./containers/Header";
 import Main from "./containers/Main";
 import Footer from "./containers/Footer";
+import BottomMain from "./containers/BottomMain";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
      <Header/>
      <Main/>
+     <BottomMain/>
      <Footer/>
     </div>
   );

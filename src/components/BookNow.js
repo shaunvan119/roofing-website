@@ -1,6 +1,14 @@
 import React, { useState, useRef } from "react"
 import emailjs from "@emailjs/browser"
-import './contactform.css'
+import './BookNow.css'
+
+
+
+
+
+
+
+
 
 
 const Result = () => {
@@ -11,7 +19,7 @@ const Result = () => {
   );
 };
 
-const ContactForm = () => {
+const BookNow = () => {
   const [result, showResult] = useState(false)
  
 
@@ -48,7 +56,11 @@ const ContactForm = () => {
         <input className="input-contact" type="text" name="user_name" />
         <label>Email</label>
         <input className="input-contact" type="email" name="user_email" />
-        <label >Message</label>
+        <label >Type of Job</label>
+        <textarea className="input-contact" name="message" />
+        <label>When do you want us to start?</label>
+        <textarea className="input-contact" name="message" />
+        <label>Suburb</label>
         <textarea className="input-contact" name="message" />
         <div> {result ? <Result/> : null}</div>
         <input className="input-button  last_input" type="submit" value="Send" />
@@ -58,4 +70,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default BookNow;

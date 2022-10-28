@@ -1,37 +1,39 @@
-import React from 'react'
-import ReactDom from 'react-dom'
+import React, { useState } from "react";
+import "./Modal.css";
+import BookNow from "./BookNow";
+import { GrClose } from 'react-icons/gr';
 
-const MODAL_STYLES = {
-  position: 'fixed',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  backgroundColor: '#FFF',
-  padding: '50px',
-  zIndex: 1000
-}
+export default function Modal() {
+  const [modal, setModal] = useState(false);
 
-const OVERLAY_STYLES = {
-  position: 'fixed',
-  top: 0,
-  left: 0,
-  right: 0,
-  bottom: 0,
-  backgroundColor: 'rgba(0, 0, 0, .7)',
-  zIndex: 1000
-}
+  const toggleModal = () => {
+    setModal(!modal);
+  };
 
-export default function Modal({ open, children, onClose }) {
-  if (!open) return null
+  if(modal) {
+    document.body.classList.add('active-modal')
+  } else {
+    document.body.classList.remove('active-modal')
+  }
 
-  return ReactDom.createPortal(
+  return (
     <>
-      <div style={OVERLAY_STYLES} />
-      <div style={MODAL_STYLES}>
-        <button onClick={onClose}>Close Modal</button>
-        {children}
-      </div>
-    </>,
-    document.getElementById('portal')
-  )
+      <button onClick={toggleModal} className="booking_button">
+        Book Online
+      </button>
+
+      {modal && (
+        <div className="modal">
+          <div onClick={toggleModal} className="overlay"></div>
+          <div className="modal-content">
+            <BookNow/>
+            <button className="close-modal" onClick={toggleModal}>
+              <GrClose/>
+            </button>
+          </div>
+        </div>
+      )}
+      
+    </>
+  );
 }

@@ -1,0 +1,15 @@
+.BottomMain_heading {
+    font-size: 43px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.heading_background {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -10px;
+
+}
