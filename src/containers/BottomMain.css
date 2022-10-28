@@ -13,3 +13,37 @@
     margin-top: -10px;
 
 }
+
+.Secound_bottom_heading {
+  text-align: center;
+  font-size: 43px;
+  color: black;
+}
+
+.contact_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contact_button_bottom {
+    border-radius: 20px;
+    background-color: #d89e1a;
+    border: none;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: 700;
+
+}
+
+.roofing_fixed {
+    margin-top: -20px;
+    text-align: center;
+}
+

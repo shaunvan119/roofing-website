@@ -6,7 +6,8 @@ const Header = () => {
   return (
     <div className="top_header">
     <img className="logo" src={logoWhite} alt="logo"/>
-    <button  className="contact_button"><a href="tel:0433310964">Call 0433310964</a></button>
+    <button  className="contact_button_header"><a href="tel:0433310964">Call 0433310964</a></button>
+    
  
 </div>
   )

@@ -18,7 +18,7 @@ a {
 
 }
 
-.contact_button {
+.contact_button_header {
     border-radius: 20px;
     background-color: #d89e1a;
     border: none;
@@ -33,7 +33,7 @@ a {
     margin-right: 80px;
 }
 
-.contact_button:hover {
+.contact_button_header:hover {
   background-color: red;
   
 }
