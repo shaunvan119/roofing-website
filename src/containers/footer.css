@@ -1,0 +1,47 @@
+.footer_wrapper {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+    
+   
+}
+
+.logo_badge {
+    height: 42px;
+}
+
+.badges {
+    display: flex;
+    justify-content: space-evenly;
+      
+}
+
+.logo_badge {
+    margin-right:20PX ;
+}
+
+.logo_footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.address {
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+
+.copy {
+    color: whitesmoke;
+    font-size: 10PX;
+}
+
+.socail_icons {
+    text-align: center;
+    
+}
