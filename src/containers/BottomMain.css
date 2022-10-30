@@ -48,3 +48,15 @@
     text-align: center;
 }
 
+
+
+@media only screen and (max-width: 1242px) {
+.BottomMain_heading {
+    font-size: 25px;
+}
+
+.heading_background {
+    height: 80px;
+   
+}
+}
