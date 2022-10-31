@@ -56,6 +56,19 @@
 
 }
 
+@media only screen and (max-width: 1242px) {
+
+ .grid-image {
+    height: 250px;
+}
+
+.overlay {
+  height: 256px; 
+}
+
+
+}
+
 @media only screen and (max-width: 500px) {
   .grid-image {
     
