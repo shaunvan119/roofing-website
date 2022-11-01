@@ -1,7 +1,7 @@
 import React from 'react'
 import "./BottomMain.css"
 import GridPics from '../components/GridPics'
-
+import Service from "../components/Service"
 
 
 const BottomMain = () => {
@@ -12,13 +12,12 @@ const BottomMain = () => {
       </div>
         <GridPics/>
         <div className="contact_bottom">
-        <h1 className="Secound_bottom_heading">$0 Call out fee</h1>
-        <h2 className="roofing_fixed">Let's get your roofing<br/> problem fixed</h2>
+        <h1 className="Secound_bottom_heading">$0 Call-out fee</h1>
         <button  className="contact_button_bottom"><a href="tel:0433310964">Call 0433310964</a></button>
       </div>
-      <div className="grid_service_wrapper">
-    
-
+        <div className="grid_service_wrapper">
+        <h1 className="service_heading">Our services</h1>
+        <Service/>
       </div>
     </div>
   )

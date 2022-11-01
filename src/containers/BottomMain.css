@@ -17,13 +17,16 @@
 .Secound_bottom_heading {
   text-align: center;
   font-size: 43px;
-  color: black;
+  color: whitesmoke;
+  margin-bottom: 0px;
 }
 
 .contact_bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
+    margin-top: 40px; 
     
 }
 
@@ -46,6 +49,12 @@
 .roofing_fixed {
     margin-top: -20px;
     text-align: center;
+}
+
+.service_heading {
+    text-align: center;
+    font-size: 43px;
+    margin-top: 80px;
 }
 
 
