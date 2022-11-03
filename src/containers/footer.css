@@ -45,3 +45,29 @@
     text-align: center;
     
 }
+
+
+@media only screen and (max-width: 912px) {
+
+.footer_wrapper {
+  
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+   
+  
+    
+   
+}
+
+.socail_icons {
+    margin-top: -50px;
+}
+
+.badges {
+    margin-bottom:50px ;
+
+}
+
+
+}

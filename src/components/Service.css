@@ -53,5 +53,29 @@ transition: all 600ms ease;
     
 }
 
+@media only screen and (max-width: 842px) {
+
+
+
+.container_service {
+    width: 180px;
+    height: 140px;
+    
+
+}
+
+h2 {
+    font-size: 14px;
+}
+
+
+.service_heading, .Secound_bottom_heading {
+    font-size: 25px;
+}
+
+
+
+}
+
 
 
