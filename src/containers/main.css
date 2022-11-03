@@ -151,11 +151,8 @@ border-radius: 20px;
   
 }
 
-.booking_button {
-
-    width: 100px;
-    height: 40px;
-    font-size: 12px;
+.booking_button, .main_heading, .main_heading_two {
+display: none;
     
 
 

@@ -55,13 +55,9 @@ transition: all 600ms ease;
 
 @media only screen and (max-width: 842px) {
 
-
-
 .container_service {
     width: 180px;
-    height: 140px;
-    
-
+    height: 140px;  
 }
 
 h2 {
@@ -74,6 +70,22 @@ h2 {
 }
 
 
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .grid-wrapper_service { 
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+   .container_service {
+    width: 160px;
+    height: 140px;  
+}
 
 }
 
