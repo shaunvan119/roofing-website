@@ -3,14 +3,6 @@ import emailjs from "@emailjs/browser"
 import './BookNow.css'
 
 
-
-
-
-
-
-
-
-
 const Result = () => {
   return (
     

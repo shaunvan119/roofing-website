@@ -57,6 +57,11 @@
     margin-top: 80px;
 }
 
+.grid_service_wrapper {
+    overflow-x: hidden;
+   width:100%;
+}
+
 
 
 @media only screen and (max-width: 1242px) {
@@ -73,3 +78,13 @@
     font-size: 36px;
 }
 }
+
+
+@media only screen and (max-width: 550px) {
+.BottomMain_heading {
+  font-size: 20px; 
+  
+}
+
+}
+

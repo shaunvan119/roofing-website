@@ -22,9 +22,11 @@ export default function Modal() {
         Book Online
       </button>
 
+      
+
       {modal && (
         <div className="modal">
-          <div onClick={toggleModal} className="overlay"></div>
+        
           <div className="modal-content">
             <BookNow/>
             <button className="close-modal" onClick={toggleModal}>

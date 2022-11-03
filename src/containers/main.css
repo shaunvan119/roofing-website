@@ -40,13 +40,13 @@ video {
 .main_heading {
     color: whitesmoke;
     font-size: 43px;
+    margin-bottom: -15px;
 }
 
 .main_heading_two {
     font-size: 36px;
     color: whitesmoke;
 }
-
 
 
 .booking_button {
@@ -65,24 +65,19 @@ border-radius: 20px;
 }
 
 .booking_button:hover {
-  background-color:  black;
+  background-color:  whitesmoke;
+  color: black;
   
 }
 
-.vl {
-  border-left: 6px solid #d89e1a;
-  height: 180px;
-  position: absolute;
-  left: -20px;
-  top: 30px;
-  
-}
+
+
 
 
 @media only screen and (max-width: 1242px) {
 
 .main_heading {
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .main_heading_two {
@@ -103,4 +98,89 @@ border-radius: 20px;
 
 }
 
+@media only screen and (max-width: 900px) {
+.heading_wrapper {
+  top: 170px;
+  left: 40px; 
+  
+}
+
+
+.main_heading, .main_heading_two {
+  font-size: 30px;
+ 
+}
+
+.main_heading_two {
+  margin-bottom: 30px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 688px) {
+
+
+.main_heading, .main_heading_two {
+  font-size: 20px;
+ 
+}
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+.main_heading_two {
+  margin-bottom: 30px;
+}
+
+.main_heading {
+  margin-bottom: -10px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 550px) {
+.heading_wrapper {
+  top: 125px;
+  left: 40px; 
+  
+}
+
+.booking_button {
+
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    
+
+
+}
+
+.main_heading {
+  color: black;
+}
+
+
+
+}
+
+@media only screen and (max-width: 450px) {
+  .main_heading_two {
+  display: none;
+  
+}
+
+.booking_button {
+margin-top: 15px;
+
+
+}
+
+
+}
 

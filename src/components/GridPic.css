@@ -83,3 +83,17 @@
 
 
 }
+
+
+@media only screen and (max-width: 969px) {
+   .grid-image {
+    height: 230px;
+}
+
+.overlay {
+  height: 238px; 
+}
+
+
+}
+

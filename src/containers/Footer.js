@@ -25,7 +25,7 @@ const Footer = () => {
         <a href="https://www.pinterest.com.au/" rel="noopener noreferrer" target="_blank"><FaPinterestSquare style={style}/></a>
         </>
         <>
-        <p className="copy">2021 © Alpha Roofing Melbourne</p>
+        <p className="copy">2021 © SLV Roofing Melbourne</p>
         </>
      </div>
       <div className="badges">

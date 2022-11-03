@@ -11,40 +11,40 @@ export default function GridPics() {
   return (
 
   <div className="grid-wrapper">
-        <div class="container">
+        <div className="container">
             <img className="grid-image colorbond_image" src={colorbondAusRoof} alt="colorbond roof" />
-            <div class="overlay">
-            <div class="text">Colorbond, metal roofing and re-roofing.</div>
+            <div className="overlay">
+            <div className="text">Colorbond, metal roofing and re-roofing.</div>
         </div>
   </div>
-        <div class="container">
+        <div className="container">
             <img className="grid-image grid-image-right" src={TiledAusRoof} alt="tiled roof" />
-            <div class="overlay overlay-right">
-            <div class="text">Tile roofing and restoration</div>
+            <div className="overlay overlay-right">
+            <div className="text">Tile roofing and restoration</div>
             </div>
     </div>
-        <div class="container">
+        <div className="container">
         <img className="grid-image grid-image-left" src={AusRoof} alt="house" />
-        <div class="overlay overlay-left">
-        <div class="text">General roof repairs and tile to metal roof conversions</div>
+        <div className="overlay overlay-left">
+        <div className="text">General roof repairs and tile to metal roof conversions</div>
         </div>
     </div>
-        <div class="container">
+        <div className="container">
         <img className="grid-image " src={newBuild} alt="new house" />
-        <div class="overlay overlay-right-two">
-        <div class="text">Roofing solutions for new and old homes</div>
+        <div className="overlay overlay-right-two">
+        <div className="text">Roofing solutions for new and old homes</div>
         </div>
     </div>
-        <div class="container">
+        <div className="container">
         <img className="grid-image grid-image-left" src={metalRoof} alt="metal roof" />
-        <div class="overlay overlay-left-two">
-        <div class="text">Quality of build and service is 100%</div>
+        <div className="overlay overlay-left-two">
+        <div className="text">Quality of build and service is 100%</div>
         </div>
     </div>
-        <div class="container">
+        <div className="container">
         <img className="grid-image" src={roofClean} alt="before after clean roof" />
-        <div class="overlay overlay-right-three">
-        <div class="text">Roof cleaning and painting</div>
+        <div className="overlay overlay-right-three">
+        <div className="text">Roof cleaning and painting</div>
         </div>
     </div>
     </div>

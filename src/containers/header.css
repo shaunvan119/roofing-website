@@ -57,4 +57,12 @@ a {
     position: absolute;
     top: 150px;
 }
+
+.contact_button_header {
+    display: none;
+}
+
+.top_header{
+    height: 130px;
+} 
 }
